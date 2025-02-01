@@ -227,7 +227,7 @@ def generate_inner(args, keys, anim_args, loop_args, controlnet_args, root, pars
                 seed_resize_from_h=p.seed_resize_from_h,
                 seed_resize_from_w=p.seed_resize_from_w,
                 sampler_name=p.sampler_name,
-                scheduler=p.scheduler,
+                #scheduler=p.scheduler,
                 batch_size=p.batch_size,
                 n_iter=p.n_iter,
                 steps=p.steps,
